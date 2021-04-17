@@ -1,25 +1,26 @@
-# Final Project | tamk-5G00DL98-3002
+# RepCook - recipes and cooking app
 
 ## Name
 
-Duy Nguyen - 1902407
+Duy Nguyen
 
 ## Topic 
 
-An app that contain recipe, ingredients, how to make dishes. <br> The app show variety of dishes from different countries
-<br> The app will also displays images of dishes.
-
+RepCook is an app that helps everyone to find a recipe for a dish,
+and help them with ingredients and how to make them.
+<br>In addition there will be lists of ingredients, cooking time, and
+description of the dish.
 ## API
 
-The food app will use the following API: https://spoonacular.com/food-api
-
+To see an example of how this app will be developed,
+please take a look at [InstaMobile](https://www.instamobile.io/app-templates/food-app-template/) website.<br>
+The food app will use the following API: [Food API](https://spoonacular.com/food-api).
 ## Target
 
-The app will mainly available for Android devices.
-
+The application will mainly available for Android devices.
 ## Language
 
 React Native is used for the development of the app.
 ## Google Play link
 
-Will be available when ready.
+http://.... (Will be available when ready)
