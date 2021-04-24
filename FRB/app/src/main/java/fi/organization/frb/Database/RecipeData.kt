@@ -5,9 +5,10 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import fi.organization.frb.Dao.RecipeQuery
-import fi.organization.frb.entities.Recipies
+import fi.organization.frb.entities.Recipes
 
-@Database(entities = [Recipies::class], version = 1, exportSchema = false)
+
+@Database(entities = [Recipes::class], version = 1, exportSchema = false)
 abstract class RecipeData : RoomDatabase(){
     companion object{
         var recipiesDatabase:RecipeData?= null

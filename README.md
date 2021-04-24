@@ -11,11 +11,11 @@ have a need in to making new dishes.
 <br>This app allows everyone to gain access to variety of different dishes and recipes from different cultures and countries. 
 <br>In addition there will be lists of ingredients, cooking time, and
 description of the dish.
+<br> Recipes for making cocktails will also be added later.
 ## API
 
-To see an example of how this app will be developed,
-please take a look at [InstaMobile](https://www.instamobile.io/app-templates/food-app-template/) website.<br>
-The food app will use the following API: [Food API](https://spoonacular.com/food-api).
+The food app will use the following API: [The Meal Db](https://www.themealdb.com/api.php)
+<br> and [The Cocktail Db](https://www.thecocktaildb.com/api.php)
 ## Target
 
 The application will available for Android devices.

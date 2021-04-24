@@ -3,8 +3,9 @@
     <color name="pear">#BDD73D</color>
     <color name="menthol">#B8F9A2</color>
     <color name="yellow">#FF9A00</color>
-    <color name="brown">#433232</color>
+    <color name="rose">#912525</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#E3E0E0</color>
+    <color name="cyan">#74F4CB</color>
 </resources>
