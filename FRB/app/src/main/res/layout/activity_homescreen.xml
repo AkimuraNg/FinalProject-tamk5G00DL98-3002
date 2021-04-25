@@ -75,7 +75,15 @@
                 tools:itemCount="1"
                 android:layout_margin="@dimen/_10sdp"
                 tools:listitem="@layout/sub_category">
+            </androidx.recyclerview.widget.RecyclerView>
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_cocktail_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:itemCount="1"
+                android:layout_margin="@dimen/_10sdp"
+                tools:listitem="@layout/cocktail_bar">
             </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
     </ScrollView>

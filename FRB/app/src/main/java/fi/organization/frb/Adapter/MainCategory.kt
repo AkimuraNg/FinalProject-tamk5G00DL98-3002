@@ -4,11 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import fi.organization.frb.Database.RecipeData
 import fi.organization.frb.R
 import fi.organization.frb.entities.Recipes
-import kotlinx.android.synthetic.main.activity_homescreen.view.*
-import kotlinx.android.synthetic.main.sub_category.view.*
+import kotlinx.android.synthetic.main.main_category.view.*
 
 class MainCategory:RecyclerView.Adapter<MainCategory.Holder>() {
 
@@ -21,15 +19,15 @@ class MainCategory:RecyclerView.Adapter<MainCategory.Holder>() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
-        return Holder(LayoutInflater.from(parent.context).inflate(R.layout.main_category,parent,false))
-    }
-
-    override fun onBindViewHolder(holder: Holder, position: Int) {
-        holder.itemView.tv_all_recipes.text = arrMainCategory[position].dishName
+        return MainCategory.Holder(LayoutInflater.from(parent.context).inflate(R.layout.main_category, parent, false))
     }
 
     override fun getItemCount(): Int {
         return arrMainCategory.size
+    }
+
+    override fun onBindViewHolder(holder: Holder, position: Int) {
+        holder.itemView.tv_all_recipes.text = arrMainCategory[position].dishName
     }
 
 
