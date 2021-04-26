@@ -28,6 +28,11 @@ The features of this application contains:
 <br>* The app is provided with scroll bar and swipe view.
 
 ## UID
+![Welcome screen](UID%20images/FR1-1.png)
+![welcome screen landscape](UID%20images/FR1-2.png)
+![Home screen](UID%20images/FR1-3.png)
+![Home screen](UID%20images/FR1-4.png)
+
 ## API
 
 The food app will use the following API: [The Meal Db](https://www.themealdb.com/api.php)
