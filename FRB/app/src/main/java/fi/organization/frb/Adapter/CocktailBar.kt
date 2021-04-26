@@ -9,7 +9,15 @@ import fi.organization.frb.R
 import fi.organization.frb.entities.Recipes
 import kotlinx.android.synthetic.main.activity_homescreen.view.*
 import kotlinx.android.synthetic.main.cocktail_bar.view.*
-
+/**
+ * Create an Adapter for cocktails for the application
+ *
+ * This class works as an data holder.
+ *
+ * Create a var array list of category which is stored to the Recipes file
+ *
+ * Data is stored as items in this file
+ */
 class CocktailBar:RecyclerView.Adapter<CocktailBar.Holder>() {
 
     var arrCocktailBar = ArrayList<Recipes>()

@@ -12,5 +12,5 @@ interface RecipeQuery {
     val allRecipes: List<Recipes>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertRecipe(recipies: Recipes)
+    fun insertRecipe(recipes: Recipes)
 }

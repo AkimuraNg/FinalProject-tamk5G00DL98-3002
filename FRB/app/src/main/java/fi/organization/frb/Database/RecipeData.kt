@@ -7,7 +7,9 @@ import androidx.room.RoomDatabase
 import fi.organization.frb.Dao.RecipeQuery
 import fi.organization.frb.entities.Recipes
 
-
+/**
+ * Stored given data from Recipes file
+ */
 @Database(entities = [Recipes::class], version = 1, exportSchema = false)
 abstract class RecipeData : RoomDatabase(){
     companion object{

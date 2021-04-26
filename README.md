@@ -12,6 +12,22 @@ have a need in to making new dishes.
 <br>In addition there will be lists of ingredients, cooking time, and
 description of the dish.
 <br> Recipes for making cocktails will also be added later.
+
+## Application Status
+
+This app is in it first build with test dummies.
+<br> No API have been used in this application yet. API will be added later.
+## Features
+
+The features of this application contains:
+<br>* Three categories for users: main category, secondary category, and cocktail category.
+<br>* Main category contains recipes for specific ingredients like beef or fish.
+<br>* Secondary category contains recipes for a specific dish such as spaghetti or Mac&Cheese.
+<br>* Cocktail category contains recipes for any cocktail drinks.
+<br>* The application also have search bar for user to look for a specific recipe.
+<br>* The app is provided with scroll bar and swipe view.
+
+## UID
 ## API
 
 The food app will use the following API: [The Meal Db](https://www.themealdb.com/api.php)

@@ -7,7 +7,15 @@ import androidx.recyclerview.widget.RecyclerView
 import fi.organization.frb.R
 import fi.organization.frb.entities.Recipes
 import kotlinx.android.synthetic.main.main_category.view.*
-
+/**
+ * Create an Adapter for main category for the application
+ *
+ * This class works as an data holder.
+ *
+ * Create a var array list of category which is stored to the Recipes file
+ *
+ * Data is stored as items in this file
+ */
 class MainCategory:RecyclerView.Adapter<MainCategory.Holder>() {
 
     var arrMainCategory = ArrayList<Recipes>()
@@ -19,7 +27,7 @@ class MainCategory:RecyclerView.Adapter<MainCategory.Holder>() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
-        return MainCategory.Holder(LayoutInflater.from(parent.context).inflate(R.layout.main_category, parent, false))
+        return Holder(LayoutInflater.from(parent.context).inflate(R.layout.main_category, parent, false))
     }
 
     override fun getItemCount(): Int {
@@ -29,6 +37,5 @@ class MainCategory:RecyclerView.Adapter<MainCategory.Holder>() {
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.itemView.tv_all_recipes.text = arrMainCategory[position].dishName
     }
-
 
 }
