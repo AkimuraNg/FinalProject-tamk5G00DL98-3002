@@ -15,15 +15,14 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-/***
+/**
  * This activity store detail data of the dishes of the app
- *
- * The problems is that the youtube links is still not yet working for each dishes
+ * including cooking times, ingredient, etc...
  */
 
 class DetailActivity : BaseActivity() {
 
-    var youtubeLink = ""
+    var WebLink = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -36,8 +35,8 @@ class DetailActivity : BaseActivity() {
             finish()
         }
 
-        btnYoutube.setOnClickListener {
-            val uri = Uri.parse(youtubeLink)
+        btnWeb.setOnClickListener {
+            val uri = Uri.parse(WebLink)
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
         }
@@ -92,10 +91,14 @@ class DetailActivity : BaseActivity() {
                 tvIngredients.text = ingredient
                 tvInstructions.text = response.body()!!.mealsEntity[0].strinstructions
 
+                /**
+                 * Make connection to website for proper guidance
+                 */
+
                 if (response.body()!!.mealsEntity[0].strsource != null){
-                    youtubeLink = response.body()!!.mealsEntity[0].strsource
+                    WebLink = response.body()!!.mealsEntity[0].strsource
                 }else{
-                    btnYoutube.visibility = View.GONE
+                    btnWeb.visibility = View.GONE
                 }
             }
 
