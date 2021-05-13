@@ -31,10 +31,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cocktail"
-            android:textSize="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
             android:maxLines="2"
             android:textColor="@color/rose"
-            android:textStyle="bold"
+            android:fontFamily="@font/gilroy_light"
             android:paddingStart="@dimen/_10sdp"/>
     </LinearLayout>
 

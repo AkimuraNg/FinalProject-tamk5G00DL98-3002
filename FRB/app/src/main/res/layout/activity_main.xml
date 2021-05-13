@@ -4,36 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/food2" />
+        android:src="@drawable/bg_splash"/>
 
     <FrameLayout
-        android:layout_width="match_parent"
+
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
         android:padding="@dimen/_5sdp"
         android:gravity="center">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnWelcome"
-            android:textColor="@color/rose"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:textStyle="italic"
-            android:gravity="center"
-            android:background="@drawable/btn_food"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:visibility="invisible"
+            android:background="@drawable/btn_bg"
             android:text="Welcome"/>
 
-    </FrameLayout>
 
+    </FrameLayout>
 
 </RelativeLayout>

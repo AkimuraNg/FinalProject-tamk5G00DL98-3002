@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fi.organization.frb">
+    package="com.organization.frb">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.FRB">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.organization.frb.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HomeActivity"/>
+        <activity android:name="com.organization.frb.HomeActivity"/>
+
+        <activity android:name="com.organization.frb.DetailActivity"/>
     </application>
 
 </manifest>

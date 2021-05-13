@@ -48,3 +48,5 @@ Kotlin is used for the development of the app.
 ## Google Play link
 
 http://.... (Will be updated when ready)
+
+## Bugs
