@@ -45,6 +45,12 @@ The application will available for Android devices.
 
 Kotlin is used for the development of the app.
 
+## Youtube Links
+
+[FRB codes and files](https://www.youtube.com/watch?v=KSpH2xfeJqs&ab_channel=DuyNguyen)
+<br>
+[FRB user interfaces](https://www.youtube.com/watch?v=PVglHrmOHQ8&ab_channel=DuyNguyen)
+
 ## Google Play link
 
 http://.... (Will be updated when ready)
