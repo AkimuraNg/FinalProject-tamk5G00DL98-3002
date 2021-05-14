@@ -33,11 +33,14 @@ In this second release, the features are:
 * Button directed to the website for more specific details of the dishes.
 
 ## UID
-
-![Welcome screen](UID%20images/FR1-1.png)
-![welcome screen landscape](UID%20images/FR1-2.png)
-![Home screen](UID%20images/FR1-3.png)
-![Home screen](UID%20images/FR1-4.png)
+![Permission](UID%20images/FRB_Permission.jpg)
+![Welcome screen](UID%20images/FRB_Welcome%20Screen.jpg)
+![welcome screen landscape](UID%20images/FRB_Welcome%20Screen%20(land).jpg)
+![Home screen](UID%20images/FRB_Home%20Screen.jpg)
+![Home screen](UID%20images/FRB_Home%20Screen%20(land).jpg)
+![Detail screen](UID%20images/FRB_Detail%20Screen%201.jpg)
+![Detail screen](UID%20images/FRB_Detail%20Screen%202.jpg)
+![Detail screen](UID%20images/FRB_Detail%20Screen%20(land).jpg)
 
 ## API
 
@@ -60,7 +63,8 @@ Kotlin is used for the development of the app.
 
 ## Google Play link
 
-http://.... (Will be updated when ready)
+This application is not available on Google Play since it is still under development.
+<br>Link to Google Play will be available when this app is ready.
 
 ## Bugs and Errors
 
