@@ -14,16 +14,23 @@ have a need in to making new dishes.
 
 ## Application Status
 
-This app is in it first build with test dummies.
-<br> No API have been used in this application yet. API will be added later.
+This application is in the second development status.
+<br> The app has some working API from the website. 
+<br>However, there are some problems with others API address since it is still under development from API website.
+<br>Some improvements will be developed in the future when the API source is completed.
 
 ## Features
 
-In the first release, the features are simple:
-<br>* Three categories for users: main category (for ingredients), secondary category (for specific dish), and cocktail category.
-<br>* The application also have search bar for user to look for a specific recipe.
-<br>* Scroll bar is used to select different categories.
-<br>* Slide view is provided to select diffenrent dishes.
+In this second release, the features are:
+
+* Three categories for users: main category (for a type of dish, ex: beef, dessert, chicken), secondary category (for specific dish from the main categories), and cocktail category.
+* The application has search bar for user to look for a specific recipe.
+* Scroll bar is used to select different categories.
+* Slide view is provided to select diffenrent dishes.
+* List of different type of categories and dishes of each.
+* Cooking time, calories, and portion.
+* Ingredients needed for the dishes and cooking instruction.
+* Button directed to the website for more specific details of the dishes.
 
 ## UID
 
@@ -55,4 +62,9 @@ Kotlin is used for the development of the app.
 
 http://.... (Will be updated when ready)
 
-## Bugs
+## Bugs and Errors
+
+* Search bar does not connected to the specific that is entered in the bar.
+* Some dishes does not provided with the website for the dish, therefore, the button will move the user back to home screen interface.
+* Some dishes has problems in the ingredients section, where some items give "null" values.
+* Cocktail bar is not yet finished due to the differences in the API address abd API website.
