@@ -57,9 +57,9 @@ Kotlin is used for the development of the app.
 
 ## Youtube Links
 
-[FRB codes and files](https://www.youtube.com/watch?v=KSpH2xfeJqs&ab_channel=DuyNguyen)
+[FRB codes and files](https://youtu.be/KSpH2xfeJqs)
 <br>
-[FRB user interfaces](https://www.youtube.com/watch?v=PVglHrmOHQ8&ab_channel=DuyNguyen)
+[FRB user interfaces](https://youtu.be/PVglHrmOHQ8)
 
 ## Google Play link
 
